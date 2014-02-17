@@ -1,0 +1,61 @@
+/* Alternate Welcome Page 2 */
+
+.welcome2 {
+	text-align: center;
+	width: 100%;
+}
+
+.welcome2 h1 {
+	color: orange;
+	font-size: 40px;
+	font-style: italic;
+	margin: 20px 0 20px;
+}
+
+.welcome2 .login-prompt {
+	font-size: 15px;
+	font-style: italic;
+	margin: 100px 0 10px;
+}
+
+.welcome2 .login-prompt p {
+	margin: 0;
+}
+
+.welcome2 .login-prompt a {
+	color: #ffffff;
+}
+
+.welcome2 img {
+	border: none;
+	display:none;
+	height: 50px;
+	margin-top: -60px;
+}
+
+/* Alternate Welcome Page 3 */
+
+.welcome3 {
+	text-align: center;
+	width: 100%;
+}
+
+.welcome3 img.logo {
+	height: 110px;
+	margin-right: 147px;
+	width: 110px;
+}
+
+.welcome3 a.login-prompt {
+	color: #D48540;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 250px 0 10px;
+}
+
+.welcome3 .login-prompt > img {
+	display: none;
+	height: 50px;
+	margin-top: -100px;
+}

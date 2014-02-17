@@ -1,0 +1,231 @@
+/* General */
+
+body {
+	padding-top: 70px;
+}
+
+/* Responsive helpers */
+/* (will be zero-height on iphone4, and a fraction of the height diff btw
+ *  iphone5 and iphone 4 when displayed on iphone 5.
+ */
+
+.iphone5-responsive-spacer-full {
+	height: 0;
+}
+
+.iphone5-responsive-spacer-half {
+	height: 0;
+}
+
+.iphone5-responsive-spacer-third {
+	height: 0;
+}
+
+@media (min-height: 568px) {
+	.iphone5-responsive-spacer-full {
+		height: 124px;
+	}
+
+	.iphone5-responsive-spacer-half {
+		height: 62px;
+	}
+
+	.iphone5-responsive-spacer-third {
+		height: 41px;
+	}
+}
+
+
+/* Header & Navbar */
+
+.navbar-collapse ul li  {
+	text-align: right;
+}
+
+.navbar-collapse .navbar-right a.navbar-rekindle {
+	cursor: normal;
+	color: orange;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.navbar-collapse .navbar-right a.navbar-rekindle:hover {
+	color: orange;
+}
+
+.nav.nav-pills {
+}
+
+.nav.nav-pills li {
+	width: 39%;
+	text-align: center;
+}
+
+.nav-pills>li>a {
+	border-radius: 2px;
+	border: 1px solid #ccc;
+}
+
+.nav>li>a {
+	padding: 14px 15px;
+}
+
+.nav-pills>li+li {
+	margin-left: 0px;
+}
+
+/* Choose & Contact cards */
+
+.card {
+	margin-bottom: 5px;
+}
+
+.card>.panel-body {
+	padding:0 0 15px 0;
+}
+
+.card .profile_image {
+	height: 230px;
+	overflow: hidden;
+}
+
+.card .info {
+	padding: 15px;
+}
+
+.info>.name {
+	float:left;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.info>.context {
+	float:right;
+	font-size: 11px;
+	text-align: right;
+}
+
+.info>.context:after {
+	clear:both;
+}
+
+.actions_container {
+	position: absolute;
+	text-align: center;
+	top: 400px ;
+	margin-left: 20px;
+}
+
+.actions_container .btn-lg {
+	padding: 15px 22px;
+	font-size: 20px;
+	border-radius: 32px;
+	margin: 0 20px;
+}
+
+/* Modal */
+
+#modal {
+	z-index: 2000;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	display:none;
+}
+
+#modal .modal_inner {
+	margin: 50px 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+
+#modal .modal_inner a.back {
+	text-align: left;
+	text-decoration: underline;
+	font-size: 13px;
+	color: #fff;
+}
+
+#modal .modal_inner p.message {
+	font-size: 18px;
+}
+
+#modal .modal_inner p.name {
+	font-size: 15px;
+}
+
+#modal .modal_inner img {
+	height: 100px;
+	margin: 20px auto 0;
+}
+
+#modal .modal_inner .actions_container button {
+	background: rgba(0, 0, 0, 0);
+	border: 2px solid #fff;
+}
+
+#modal .modal_inner .actions_container {
+	margin-top: 30px;
+}
+
+#modal .modal_inner .actions_container div {
+	display: inline-block;
+}
+
+#modal .modal_inner .actions_container div p {
+	font-size: 11px;
+}
+
+#modal .modal_inner .actions_container div .fa {
+	color: #fff;
+}
+
+
+/* Homepage/Welcome Page */
+
+.welcome {
+	text-align: center;
+	width: 100%;
+}
+
+.welcome h1 {
+	color: orange;
+	font-size: 40px;
+	font-style: italic;
+	margin: 10px 0 10px;
+}
+
+.welcome p {
+	font-size: 18px;
+	color: #555;
+}
+
+.welcome p.facebook_reasoning {
+	font-size: 15px;
+	font-style: italic;
+	margin: 100px 0 10px;
+}
+
+.welcome img {
+	margin-top: 0px;
+	height: 50px;
+	border: none;
+}
+
+
+/*overlapping cards*/
+
+.top-card{
+ 	position: relative;
+ 	z-index: 2;
+}
+
+.bottom-card{
+	position: relative;
+	z-index: 1;
+	top: -300px;
+
+}
